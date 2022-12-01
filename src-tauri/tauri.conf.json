@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.kentubman5.high-pitch-noise-gen",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
