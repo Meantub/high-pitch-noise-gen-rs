@@ -3,11 +3,10 @@
     windows_subsystem = "windows"
 )]
 
-use std::sync::{Arc, Mutex};
 use std::time::Duration;
 use rodio::{OutputStream, Sink, Source};
 use rodio::source::SineWave;
-use tauri::{CustomMenuItem, SystemTrayMenu, SystemTrayEvent, SystemTray, RunEvent, SystemTrayMenuItem};
+use tauri::{CustomMenuItem, SystemTrayMenu, SystemTrayEvent, SystemTray, RunEvent};
 
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
